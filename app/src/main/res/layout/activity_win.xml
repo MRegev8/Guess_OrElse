@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroudgoe"
+    tools:context=".win">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        app:srcCompat="@drawable/menucolor" />
+
+    <TextView
+        android:id="@+id/glory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="221dp"
+        android:layout_marginRight="124dp"
+        android:fontFamily="sans-serif"
+        android:text="YOU WIN!"
+        android:textColor="#E0E0E0"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="359dp"
+        android:layout_marginRight="153dp"
+        android:backgroundTint="#E1E1E1"
+        android:fontFamily="sans-serif-black"
+        android:text="EXIT"
+        android:textColor="#BF000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="136dp"
+
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="444dp"
+        android:layout_marginRight="159dp"
+        android:fontFamily="sans-serif-condensed"
+        android:rotationX="46"
+        android:text=".. TRIES"
+        android:textColor="#801E335E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginRight="129dp"
+        android:backgroundTint="#E1E1E1"
+        android:fontFamily="sans-serif-black"
+        android:text="RESTART"
+        android:textColor="#BF000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/numw"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginRight="147dp"
+        android:background="@drawable/round_botton"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="52"
+        android:textColor="#D8FFA200"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:backgroundTint="#3DB5BD"
+        app:strokeColor="@color/white" />
+
+
+</RelativeLayout>
